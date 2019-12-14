@@ -1,0 +1,22 @@
+[{
+	"id": 1,
+	"name": "Google Drive",
+    "capacity": "50 GB",
+    "occupied": "45,5 GB",
+    "percent": "91",
+    "icon": "/icons/Google.png"
+}, {
+	"id": 2,
+	"name": "DropBox",
+    "capacity": "3 GB",
+    "occupied": "1,2 GB",
+    "percent": "40",
+    "icon": "/icons/Dropbox.png"
+}, {
+	"id": 3,
+	"name": "OneDrive",
+    "capacity": "3 GB",
+    "occupied": "2,5 GB",
+    "percent": "83.3",
+    "icon": "./icons/Onedrive.png"
+}]

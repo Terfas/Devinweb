@@ -1,0 +1,17 @@
+{
+	"id": 1,
+	"name": "Google Drive",
+	"capacity": "50 GB",
+	"occupied": "45,5 GB",
+	"images": "15.3 GB",
+	"nOfImages": "1,746",
+	"documents": "256 MB",
+	"nOfDocuments": "123",
+	"media": "3.4 GB",
+	"nOfMedia": "24",
+	"other": "3 GB",
+	"nOfOther": "454",
+	"unknown": "175 MB",
+	"nOfUnknown": "57Z",
+	"additionalInfo": "Has Bought a lot of products before and a high Value Customer"
+}

@@ -1,0 +1,17 @@
+{
+	"id": 2,
+	"name": "DropBox",
+	"capacity": "3 GB",
+	"occupied": "1,2 GB",
+	"images": "15.3 GB",
+	"nOfImages": "120",
+	"documents": "256 MB",
+	"nOfDocuments": "1234",
+	"media": "3.4 GB",
+	"nOfMedia": "2",
+	"other": "3 GB",
+	"nOfOther": "32",
+	"unknown": "175 MB",
+	"nOfUnknown": "55",
+	"additionalInfo": "Has Bought a lot of products before and a high Value Customer"
+}

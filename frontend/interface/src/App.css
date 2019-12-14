@@ -1,0 +1,382 @@
+a
+{
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.container{
+  padding-top: 20px;
+}
+
+.drives{
+  padding: 20px;
+  background-color: #f6f8fb;
+}
+.card{
+  transition: all .2s ease-in-out;
+  border-radius: 10px;
+  padding-bottom: 0.1rem; 
+}
+.driveCard:hover, .driveCard.active{
+  background-color: #5864ff;
+  transform: scale(1.1);
+  box-shadow: 0 20px 6px 0px #f2f2f2;
+  text-decoration-color: #fff !important;
+  cursor: pointer;
+}
+
+.driveContent p{
+  text-align: left;
+  color: #313d86 !important;
+ 
+}
+
+.driveContent p:not(.driveName){
+   font-weight: 200 !important;
+   font-size: 20px;
+}
+.driveName{
+  font-size: 20px;
+  font-weight: 500;
+}
+.driveCard:hover p, .driveCard.active p{
+  color: #fff !important;
+}
+.driveOccupied, .driveCapacity{
+  position: absolute !important;
+  bottom: 3rem;
+}
+
+.driveOccupied,.driveDetailsOccupied{
+  left: 1.5rem;
+}
+.driveCapacity,.driveDetailsCapacity{
+  right: 1.5rem;
+}
+
+.driveBar{
+  margin-top: 20px;
+}
+
+.progress{
+  height: 0.5rem !important;
+  color: #ccc !important;
+}
+
+.driveImage{
+  background-color: #f6f8fb;
+  padding: 5px;
+  border-radius: 5px;
+}
+.box{
+  position: relative;
+}
+
+.driveDetails{
+  padding-top: 2rem;
+}
+.driveDetailsCapacity, .driveDetailsOccupied{
+  position: absolute !important;
+  top: 1rem;
+}
+.driveDetailsOccupied, .driveDetailsCapacity{
+  font-size: 25px;
+  font: 500;
+}
+.driveDetailsOccupied{
+  color: #4957ec;
+}
+
+.driveDetailsCapacity{
+  color: #c6c9de;
+}
+
+.driveStatus{
+  position: relative !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.driveStatusUpgrade, .driveStatusUsed{
+  font-size: 15px;
+  font: 500;
+  position: absolute;
+}
+.driveStatusUpgrade{
+  color: #4957ec;
+  right: 1rem;
+
+}
+
+.driveStatusUsed{
+  color: #c6c9de;
+  left: 1rem;
+}
+
+.driveBarStatus{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.typeDetails{
+  padding-bottom: 7px;
+  padding-top: 7px;
+  position: relative;
+}
+.typeName{
+  color: #4957ec;
+  font-weight: 400;
+}
+.typeN{
+  color: #c6c9de;
+}
+.typeOccupied{
+  position: absolute;
+  color: #4957ec;
+  top: 1.2rem;
+  right: 1rem;
+  font-weight: 500;
+}
+
+
+.folders{
+  background-color: #f6f8fb;
+}
+
+.sectionHeader{
+  position: relative;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.sectionTitle, .sectionView{
+  position: absolute;
+  top: 1.5rem;
+  font-size: 20px;
+  
+}
+.sectionTitle{
+  left: 1rem;
+  color: #475294;
+  font-weight: 700;
+
+}
+.sectionView{
+  right: 1rem !important;
+  color: #4957ec;
+  font-weight: 200;
+}
+
+.foldersDetails{
+  margin-top: 40px;
+}
+.folderCard{
+  position: relative;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.folderName, .folderFiles{
+  position: absolute;
+  left: 1.5rem;
+}
+.folderName{
+  color: #475294;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.folderFiles{
+  color: #c6c9de;
+  bottom: 1.5rem;
+}
+.folderIcon{
+  position: absolute !important;
+  left: -1rem;
+  font-size: 48px;
+  top: -1.3rem;
+  color: #4957ec;
+}
+
+.folderImage{
+  position: relative !important;
+}
+
+.latestDetails
+{
+  margin-top: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.latestTable
+{
+  background-color: #f6f8fb;
+} 
+
+th{
+  color: #747ead !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+.fileName{
+  color: #475294;
+
+  font-weight: 500;
+}
+.fileInfo{
+  color: #747ead;
+
+  font-weight: 200;
+}
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+
+tr
+{
+  border-bottom: 0px !important;
+  border-radius: 50px !important;
+}
+tr:hover:not(.tableHeader)
+{
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #f2f2f2;
+  
+}
+tr td:first-child {
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+
+}
+
+tr td:last-child {
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+.menu
+{
+  text-align: left;
+}
+
+.highlited
+{
+  color: #6671f7 !important;
+}
+.menu-label
+{
+  color: #475294;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-list li a
+{
+  text-decoration: none;
+   color: #475294 !important;
+   font-weight: 500;
+}
+.menuDropdown
+{
+  position: relative;
+}
+.dropdown{
+  position: relative;
+  width: 100%;
+  
+}
+.dropdown-trigger
+{
+  width: 100%;
+  height: 70px;
+}
+.dropdown-trigger button
+{
+  border-width: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  box-shadow: 0px 2px 0px 0px #f2f2f2;
+}
+.dropContent
+{
+  position: relative;
+  margin-left: -50%;
+}
+.dropIcon
+{
+  position: relative;
+  margin-right: -50%;
+  left: 50%;
+}
+.dropTitle
+{
+ color: #475294;
+ font-size: 20px;
+ font-weight: 600;  
+}
+.dropSubTitle
+{
+  color: #747ead;
+  font-size: 15px;
+}
+
+.menuName
+{
+  color: #475294;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.driveSearch
+{
+
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 10px;
+
+}
+.driveSearch input
+{
+  border-radius: 10px;
+  border-width: 0px;
+}
+.fileImage
+{
+  margin-right: 10px; 
+}
