@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bulma-accordion": "^2.0.1",
     "jquery": "^3.4.1",
     "react": "^16.4.1",
